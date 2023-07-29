@@ -9,6 +9,8 @@ import UIKit
 
 final class UICollectionViewFlowLayoutFactory {
 
+    private init(){}
+    
     static func createFlowLayout(scrollDirection: UICollectionView.ScrollDirection,
                                   itemSize: CGSize,
                                   minimumLineSpacing: CGFloat = 10,

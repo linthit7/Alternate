@@ -17,6 +17,14 @@
 		F9E9F5582A72B6B200D409EE /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E9F5562A72B6B200D409EE /* BaseViewController.xib */; };
 		F9E9F55B2A72B92200D409EE /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F55A2A72B92200D409EE /* UIKitExtensions.swift */; };
 		F9E9F55E2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F55D2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift */; };
+		F9E9F5622A7398CB00D409EE /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5602A7398CB00D409EE /* BaseCollectionViewCell.swift */; };
+		F9E9F5632A7398CB00D409EE /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E9F5612A7398CB00D409EE /* BaseCollectionViewCell.xib */; };
+		F9E9F56A2A739DF000D409EE /* UICollectionViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5692A739DF000D409EE /* UICollectionViewUtility.swift */; };
+		F9E9F5712A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F56F2A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift */; };
+		F9E9F5722A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E9F5702A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib */; };
+		F9E9F5742A73CC8000D409EE /* UICollectionViewCellUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5732A73CC8000D409EE /* UICollectionViewCellUtility.swift */; };
+		F9E9F5772A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5752A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.swift */; };
+		F9E9F5782A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E9F5762A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,14 @@
 		F9E9F5562A72B6B200D409EE /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		F9E9F55A2A72B92200D409EE /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		F9E9F55D2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewFlowLayoutFactory.swift; sourceTree = "<group>"; };
+		F9E9F5602A7398CB00D409EE /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		F9E9F5612A7398CB00D409EE /* BaseCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		F9E9F5692A739DF000D409EE /* UICollectionViewUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewUtility.swift; sourceTree = "<group>"; };
+		F9E9F56F2A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		F9E9F5702A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		F9E9F5732A73CC8000D409EE /* UICollectionViewCellUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellUtility.swift; sourceTree = "<group>"; };
+		F9E9F5752A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseTextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		F9E9F5762A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseTextFieldCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 		F9E9F5362A72AA6200D409EE /* Alternate */ = {
 			isa = PBXGroup;
 			children = (
+				F9E9F5682A739DC800D409EE /* Utilities */,
 				F9E9F55C2A73721D00D409EE /* Services */,
 				F9E9F5592A72B90500D409EE /* Extensions */,
 				F9E9F54B2A72AF5100D409EE /* Models */,
@@ -88,6 +105,7 @@
 		F9E9F54D2A72AF6400D409EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F9E9F55F2A7398B000D409EE /* ViewCells */,
 				F9E9F5532A72AFB700D409EE /* ViewControllers */,
 			);
 			path = Views;
@@ -125,6 +143,28 @@
 				F9E9F55D2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F9E9F55F2A7398B000D409EE /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9F5602A7398CB00D409EE /* BaseCollectionViewCell.swift */,
+				F9E9F5612A7398CB00D409EE /* BaseCollectionViewCell.xib */,
+				F9E9F56F2A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift */,
+				F9E9F5702A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib */,
+				F9E9F5752A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.swift */,
+				F9E9F5762A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		F9E9F5682A739DC800D409EE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9F5692A739DF000D409EE /* UICollectionViewUtility.swift */,
+				F9E9F5732A73CC8000D409EE /* UICollectionViewCellUtility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +225,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E9F5782A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib in Resources */,
 				F9E9F5442A72AA6400D409EE /* LaunchScreen.storyboard in Resources */,
 				F9E9F5582A72B6B200D409EE /* BaseViewController.xib in Resources */,
 				F9E9F5412A72AA6400D409EE /* Assets.xcassets in Resources */,
+				F9E9F5722A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib in Resources */,
+				F9E9F5632A7398CB00D409EE /* BaseCollectionViewCell.xib in Resources */,
 				F9E9F5522A72AFAA00D409EE /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,12 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E9F5712A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift in Sources */,
+				F9E9F5742A73CC8000D409EE /* UICollectionViewCellUtility.swift in Sources */,
 				F9E9F5382A72AA6200D409EE /* AppDelegate.swift in Sources */,
+				F9E9F5622A7398CB00D409EE /* BaseCollectionViewCell.swift in Sources */,
 				F9E9F5572A72B6B200D409EE /* BaseViewController.swift in Sources */,
+				F9E9F5772A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.swift in Sources */,
 				F9E9F53A2A72AA6200D409EE /* SceneDelegate.swift in Sources */,
 				F9E9F55E2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift in Sources */,
 				F9E9F5512A72AFAA00D409EE /* HomeViewController.swift in Sources */,
 				F9E9F55B2A72B92200D409EE /* UIKitExtensions.swift in Sources */,
+				F9E9F56A2A739DF000D409EE /* UICollectionViewUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

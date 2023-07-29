@@ -24,22 +24,17 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = controllerTitle
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = UIColor.backgroundColor
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .done, target: nil, action: nil)
         self.navigationController?.navigationBar.tintColor = UIColor.primary
         self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.primary]
         self.navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.primary]
         setupDataSourceandDelegate()
-        setupDelegateFlowLayout()
     }
     
     func setupDataSourceandDelegate() {
         //SetupDataSourceandDelegate for tableview/collectionview
-    }
-    
-    func setupDelegateFlowLayout() {
-        //SetupDelegateFlowLayout for collectionview
     }
 
 }
