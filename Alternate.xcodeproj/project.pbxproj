@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F902C5C02A753C87000B5762 /* ShowcaseItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902C5BE2A753C87000B5762 /* ShowcaseItemViewController.swift */; };
+		F902C5C12A753C87000B5762 /* ShowcaseItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F902C5BF2A753C87000B5762 /* ShowcaseItemViewController.xib */; };
+		F902C5C32A7639D7000B5762 /* UIViewControllerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902C5C22A7639D7000B5762 /* UIViewControllerUtility.swift */; };
 		F9E9F5382A72AA6200D409EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5372A72AA6200D409EE /* AppDelegate.swift */; };
 		F9E9F53A2A72AA6200D409EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9F5392A72AA6200D409EE /* SceneDelegate.swift */; };
 		F9E9F5412A72AA6400D409EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E9F5402A72AA6400D409EE /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F902C5BE2A753C87000B5762 /* ShowcaseItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseItemViewController.swift; sourceTree = "<group>"; };
+		F902C5BF2A753C87000B5762 /* ShowcaseItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowcaseItemViewController.xib; sourceTree = "<group>"; };
+		F902C5C22A7639D7000B5762 /* UIViewControllerUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerUtility.swift; sourceTree = "<group>"; };
 		F9E9F5342A72AA6200D409EE /* Alternate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alternate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9F5372A72AA6200D409EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E9F5392A72AA6200D409EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 				F9E9F5562A72B6B200D409EE /* BaseViewController.xib */,
 				F9E9F54F2A72AFAA00D409EE /* HomeViewController.swift */,
 				F9E9F5502A72AFAA00D409EE /* HomeViewController.xib */,
+				F902C5BE2A753C87000B5762 /* ShowcaseItemViewController.swift */,
+				F902C5BF2A753C87000B5762 /* ShowcaseItemViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 			children = (
 				F9E9F5692A739DF000D409EE /* UICollectionViewUtility.swift */,
 				F9E9F5732A73CC8000D409EE /* UICollectionViewCellUtility.swift */,
+				F902C5C22A7639D7000B5762 /* UIViewControllerUtility.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -227,6 +236,7 @@
 			files = (
 				F9E9F5782A73CD5B00D409EE /* ShowcaseTextFieldCollectionViewCell.xib in Resources */,
 				F9E9F5442A72AA6400D409EE /* LaunchScreen.storyboard in Resources */,
+				F902C5C12A753C87000B5762 /* ShowcaseItemViewController.xib in Resources */,
 				F9E9F5582A72B6B200D409EE /* BaseViewController.xib in Resources */,
 				F9E9F5412A72AA6400D409EE /* Assets.xcassets in Resources */,
 				F9E9F5722A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.xib in Resources */,
@@ -242,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F902C5C02A753C87000B5762 /* ShowcaseItemViewController.swift in Sources */,
 				F9E9F5712A73C1A700D409EE /* ShowcaseButtonCollectionViewCell.swift in Sources */,
 				F9E9F5742A73CC8000D409EE /* UICollectionViewCellUtility.swift in Sources */,
 				F9E9F5382A72AA6200D409EE /* AppDelegate.swift in Sources */,
@@ -251,6 +262,7 @@
 				F9E9F53A2A72AA6200D409EE /* SceneDelegate.swift in Sources */,
 				F9E9F55E2A73815C00D409EE /* UICollectionViewFlowLayoutFactory.swift in Sources */,
 				F9E9F5512A72AFAA00D409EE /* HomeViewController.swift in Sources */,
+				F902C5C32A7639D7000B5762 /* UIViewControllerUtility.swift in Sources */,
 				F9E9F55B2A72B92200D409EE /* UIKitExtensions.swift in Sources */,
 				F9E9F56A2A739DF000D409EE /* UICollectionViewUtility.swift in Sources */,
 			);

@@ -9,6 +9,7 @@ import UIKit
 
 final class UICollectionViewCellUtility {
     
+    private init() {}
     // This function receives a view and two proportions: widthProportion and heightProportion.
     static func resizeViewProportionally(view: UIView, widthProportion: CGFloat, heightProportion: CGFloat) {
         view.translatesAutoresizingMaskIntoConstraints = false

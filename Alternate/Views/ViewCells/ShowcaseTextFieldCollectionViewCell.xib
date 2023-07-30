@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="252" height="50"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Field" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vn6-hc-K34">
+                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Field" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vn6-hc-K34">
                         <rect key="frame" x="81" y="8" width="90" height="34"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
